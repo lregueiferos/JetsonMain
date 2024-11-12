@@ -31,7 +31,7 @@ echo "- The subsystems program was compiled to ~/subsystems.exe"
 echo "- udev will auto-detect the IMU and GPS when plugged in"
 echo "- systemd will auto-start the subsystems program on boot"
 
-cd ..
+
 
 # Redirects output on &3 to /dev/null unless -v or --verbose is passed 
 if [ "$1" = "-v" ]; then
