@@ -9,3 +9,4 @@ echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.go
   | sudo tee /etc/apt/sources.list.d/dart_stable.list
 sudo apt-get update && sudo apt-get install dart
 sudo apt-get install python3-opencv
+sudo apt install python3-numpy

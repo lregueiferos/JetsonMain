@@ -12,7 +12,7 @@ cd ../..
 
 echo "Compiling the Subsystems program. This could take about 1 minute..."
 cd Subsystems
-dart pub get --offline > /dev/null
+dart pub get
 dart compile exe bin/subsystems.dart -o ~/subsystems.exe > /dev/null
 cd ..
 
@@ -48,7 +48,7 @@ cd opencv_ffi
 ./build.sh >&3
 cd ..
 
-cd video/src
+cd Video/src
 if [ ! -f /usr/local/lib/librealsense2.so ]
 then
   echo "Compiling librealsense. This could take up to 45 minutes..."
